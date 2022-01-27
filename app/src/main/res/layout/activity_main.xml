@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="FirstLesson"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="122dp" />
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:onClick="onClick" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="casual"
+        android:hint="123"
+        android:inputType="textPersonName"
+        android:text="123"
+        android:textColor="@color/purple_700"
+        android:textSize="35sp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Button"
+        android:fontFamily="serif"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="40dp" />
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/toggle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="Switch"
+        android:fontFamily="cursive"
+        android:textSize="50sp" />
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        android:textSize="30sp"
+        />
+    <ToggleButton
+        android:id="@+id/ToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="Off"
+        android:textOn="ON"/>
+
+</LinearLayout>
